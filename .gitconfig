@@ -1,0 +1,16 @@
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+
+[alias]
+  st = status
+  co = checkout
+  ci = commit -a
+  ad = add 
+  br = branch
+  rs = reset
+  cm = commit
+  cc = commit -m
+  po = push origin
+  ps = push

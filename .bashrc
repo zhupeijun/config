@@ -1,0 +1,15 @@
+#Git
+alias gcm="git commit -m "
+alias gco="git checkout "
+alias gcod="git checkout develop"
+alias gad="git add"
+alias gada="git add -A "
+alias gst="git status"
+alias g="git"
+alias gbr="git branch"
+alias gpso="git push origin"
+alias gc="git clean -f -d"
+alias gl="git log"
+alias gplo="git pull origin"
+alias grs="git reset"
+

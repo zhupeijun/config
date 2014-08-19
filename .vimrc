@@ -1,3 +1,4 @@
+" Based on https://github.com/watashi/dotfiles/blob/master/home/watashi/.vimrc
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()

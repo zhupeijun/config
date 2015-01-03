@@ -9,10 +9,13 @@
 #include <queue>
 #include <stack>
 #include <map>
-
-typedef long long LL;
+#include <utility>
+#include <set>
 
 using namespace std;
+
+typedef long long ll;
+typedef pair<int, int> pii;
 
 int main() {
 

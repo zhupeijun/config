@@ -1,5 +1,7 @@
 # zsh
 
+Setup .zshrc
+
 ```zsh:.zshrc
 PROMPT='%F{cyan}%n%F{cyan}@%F{cyan}%1~$ %F{reset}'
 
@@ -17,9 +19,7 @@ alias gc="git clean -f -d"
 alias gl="git log"
 alias gplo="git pull origin"
 alias grs="git reset"
-```
 
-```zsh:.zprofile
 alias ls='ls -G'
 export LSCOLORS=Cxfxcxdxbxegedabagacad
 ```
@@ -39,6 +39,8 @@ export LSCOLORS=Cxfxcxdxbxegedabagacad
     - Check Silence bell
 
 # Vim
+
+Setup .vimrc
 
 ```vim:.vimrc
 set nocompatible
@@ -77,4 +79,41 @@ call matchadd("WhitespaceEOL", "\\s\\+$")
 autocmd BufEnter *.py set ts=2 sw=2
 ```
 
-Run Plugin Install from vim command line
+Create swap folder
+
+```sh
+mkdir .vim/swap 
+```
+
+Install vundle 
+
+```zsh
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+Install plugin from vim command line
+
+```
+:PluginInstall
+```
+
+# Alfred
+
+Install from [here](https://www.alfredapp.com/)
+
+# SSH
+
+Generat ssh key
+
+```bash
+ssh-keygen -t rsa -C your@email.com
+```
+
+# Git
+
+```bash
+git config --global user.email "Your Email"
+git config --global user.name "Your name"
+git config --global push.default current
+```
+

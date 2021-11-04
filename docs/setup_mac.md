@@ -117,3 +117,8 @@ git config --global user.name "Your name"
 git config --global push.default current
 ```
 
+# C++
+
+```bash
+brew install gcc
+```

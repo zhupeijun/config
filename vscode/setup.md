@@ -36,7 +36,7 @@ ln -s /usr/local/bin/g++-9 /usr/local/bin/g++
 ```
 
 User Snippets
-- [C++]((user_snippets/cpp.json))
+- [C++](user_snippets/cpp.json)
 
 # Terminal Swap Hotkey
 

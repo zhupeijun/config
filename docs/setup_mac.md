@@ -3,7 +3,13 @@
 Setup .zshrc
 
 ```zsh:.zshrc
-PROMPT='%F{cyan}%n%F{cyan}@%F{cyan}%1~$ %F{reset}'
+PROMPT='%F{red}𝞴 %F{cyan}%1~ %F{cyan}$ %F{reset}'
+
+# Util
+alias lo="tr A-Z a-z"
+alias up="tr a-z A-Z"
+alias c="pbcopy"
+alias ts="date +%s"
 
 #Git
 alias gcm="git commit -m "
@@ -15,13 +21,23 @@ alias gst="git status"
 alias g="git"
 alias gbr="git branch"
 alias gpso="git push origin"
+alias gpsn="git push new"
 alias gc="git clean -f -d"
 alias gl="git log"
 alias gplo="git pull origin"
 alias grs="git reset"
+alias gcmne="git commit --amend --no-edit"
+alias grd="git rebase origin/develop"
+alias grc="git rebase --continue"
 
 alias ls='ls -G'
 export LSCOLORS=Cxfxcxdxbxegedabagacad
+
+# Go
+export GOPATH=~/go
+
+# C++
+alias a="./a.out"
 ```
 
 # iTerm2
